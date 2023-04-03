@@ -1,0 +1,346 @@
+/* Fonts */
+/* font-family: 'Fraunces', serif;
+font-family: 'Poppins', sans-serif;
+color  #395949 */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:wght@400;500;600;700&display=swap");
+/* /////////////////////////////////////////////////////basic//////////////////////////// */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+
+
+}
+.ri-leaf-line,
+.ri-arrow-right-down-line,
+.ri-arrow-right-up-line,
+.ri-add-line,
+.ri-phone-line,
+.ri-mail-line {
+  vertical-align: middle;
+}
+
+/* /////////////////////////////////////////////////////Header//////////////////////////// */
+header {
+  padding: 20px 150px;
+  display: flex;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .logo {
+    margin-right: auto;
+    .ri-leaf-line {
+        color: #395949;
+      }
+  }
+  .navbar {
+    span {
+        background-color: transparent;
+    }
+  }
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+ul.navbar-nav a:hover { 
+    color: #395949 !important;
+    border-bottom: 2px solid #395949;
+ }
+}
+@media (max-width: 768px) {
+     .navbar-nav { 
+ width: 9rem;
+    } 
+    }
+
+/* /////////////////////////////////////////////////////HOME//////////////////////////// */
+.home-cont {
+  display: flex;
+  justify-content: center;
+  margin: 6.5rem 6rem 5rem 5rem;
+}
+.home-cont img {
+  width: 35%;
+}
+.left-side {
+  width: 51%;
+}
+.left-side > p {
+  font-weight: 500;
+  padding: 20px 0px 55px 0px;
+}
+.left-side h2 {
+  font-size: 3rem;
+}
+.ri-facebook-fill,
+.ri-twitter-fill {
+  position: absolute;
+  color: #395949;
+  right: 3rem;
+}
+.ri-arrow-up-circle-fill {
+  position: fixed;
+  color: #395949;
+  right: 3rem;
+  top: 30rem;
+}
+
+.ri-facebook-fill {
+  top: 20rem;
+}
+.ri-twitter-fill {
+  top: 22rem;
+}
+.side-icons {
+  height: 4.4rem;
+}
+.side-icons p {
+  color: #395949;
+  font-weight: 500;
+  writing-mode: vertical-rl;
+  position: relative;
+  top: -20.2rem;
+  right: -63.3rem;
+}
+.left-side button {
+  font-weight: 500;
+  width: 5.5rem;
+  height: 2.4rem;
+  border: transparent;
+  border-radius: 10px;
+  background-color: #395949;
+  color: #fff;
+}
+
+/* ////////////////////////////////////////////ABOUT//////////////////////////// */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 5rem 10rem 10.5rem;
+}
+.about img {
+  width: 40%;
+}
+.about-text {
+  width: 45%;
+}
+.about-text h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.about-text .para {
+  font-size: 1rem;
+  margin: 10px 0px;
+}
+.about-text p {
+  margin: 10px 0px;
+}
+.about-text a {
+  position: relative;
+  top: 20px;
+  color: #395949;
+  font-weight: 500;
+}
+.ri-checkbox-fill {
+  color: #395949;
+}
+
+/* ////////////////////////////////////////////////////THIRD SECTION////////////////// */
+
+.green-container {
+  margin: auto;
+  width: 75%;
+  height: 27rem;
+  background-color: #395949;
+  border-radius: 20px;
+}
+.green-container h3 {
+  text-align: center;
+  padding-top: 3rem;
+  margin: auto;
+  width: 20rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+.box-cont {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem auto 0rem auto;
+}
+.white-box {
+  background-color: white;
+  margin: auto;
+  width: 15rem;
+  height: 12rem;
+  border-radius: 10px;
+  padding: 1.3rem;
+}
+span {
+  width: 2.5rem;
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background-color: #395949;
+  color: white;
+}
+
+/* ///////////////////////////////////////////PRODUCTS/////////////////////////// */
+.product-cont {
+  margin-bottom: 4rem;
+}
+.product-cont h2 {
+  text-align: center;
+  padding-top: 3rem;
+  margin: auto;
+
+  width: 20rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.product-cont p {
+  text-align: center;
+  margin: 2.5rem 20rem;
+}
+
+.flex {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+.item img {
+  width: 50%;
+}
+.ri-price-tag-fill {
+  background-color: #395949;
+  color: white;
+  padding: 0.2rem;
+  position: relative;
+  right: -5rem;
+}
+/* ///////////////////////////////////////////Questions/////////////////////////// */
+#btn {
+    background-color: transparent;
+    border: none;
+}
+.qst-section {
+  background-color: rgba(57, 89, 73, 0.582);
+  height: 34.5rem;
+  padding: 4.5rem 6rem;
+}
+#qst,
+#response1,
+#response,
+#response2,
+#response3,
+#response4,
+#response5 {
+  background-color: white;
+  width: 35%;
+  padding: 0.5rem;
+  margin: 0rem 0.8rem;
+}
+
+#response1,
+#response,
+#response2,
+#response3,
+#response4,
+#response5 {
+  display: none;
+}
+/* ////////////////////////////CONTACT SECTION////////////////////////////////////////// */
+contact {
+  height: 40rem;
+}
+
+.left h2 {
+  width: 25rem;
+  margin: 2rem 0;
+}
+.left h4 {
+  margin: 0.5rem 0;
+}
+form {
+  margin: 2rem;
+}
+.fill input {
+  width: 20rem;
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 0.2rem 0;
+}
+.fill a {
+  background-color: #395949;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+footer,
+contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* ///////////////////////////FOOTER////////////////////////////////////////// */
+footer {
+  margin: 3rem 1rem;
+}
+.subs h1 {
+  font-size: 1rem;
+  text-align: center;
+}
+.subs p {
+  font-size: 1rem;
+  width: 20rem;
+  margin: 1rem 0;
+}
+.subs input {
+  border: none;
+  background-color: #39594900;
+  outline: none;
+  width: 14rem;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.37);
+}
+#e {
+  background-color: #39594954;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+#e a {
+  background-color: #395949;
+  padding: 0.3rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+footer h5 {
+  margin: 1rem 0;
+}
+.card {
+  width: 2rem;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 7rem 0rem 1rem 0rem;
+}
+
+/* ///////////////////////////MQ////////////////////////////////////////// */
